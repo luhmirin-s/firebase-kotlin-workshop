@@ -5,5 +5,13 @@
     "firebase-admin": "^5.4.3",
     "firebase-functions": "^0.7.1",
   },
+  "devDependencies": {
+    "typescript": "^2.3.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "deploy": "tsc && firebase deploy --only functions"
+  },
+  "main": "build/index.js",
   "private": true
 }
