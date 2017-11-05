@@ -39,7 +39,7 @@ exports.testPush = functions.https.onRequest((req, res) => {
 
  * Deploy this function with the CLI tools:
 ``` sh
-firebase deploy --only function
+firebase deploy --only functions
 ```
 
  * Trigger the test function to check if it works by calling: 
